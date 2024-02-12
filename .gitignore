@@ -2,7 +2,27 @@
 /dist
 /node_modules
 /build
-node_modules/
+
+# Ignore ESLint config
+.eslintrc.js
+
+# Ignore Prettier config
+.prettierrc
+
+# Ignore NestJS CLI config
+nest-cli.json
+
+# Ignore Node.js package lock file
+package-lock.json
+
+# Ignore Node.js package.json file
+package.json
+
+# Ignore TypeScript build config
+tsconfig.build.json
+
+# Ignore TypeScript config
+tsconfig.json
 
 # Logs
 logs
